@@ -740,7 +740,7 @@ a{text-decoration: none; color: black;}
     }
     #section .cologne_gr2 li{
         height: 30vw;
-        position: relative;
+        /* position: relative; */
     }
     #section .cologne_gr2 li:nth-child(1){
         width: 50%;
@@ -778,13 +778,20 @@ a{text-decoration: none; color: black;}
     #section .cologne_gr2 li:nth-child(2)>div .btn{
         display: none;
     }
-    
+    #section .cologne_gr2 li:nth-child(3){
+        background-color: black;
+        background-image: none;
+        width: 100%;
+        height: 40vw;
+        position: relative;
+    }
     #section .cologne_gr2 li:nth-child(3) video{
         display: block;
         width: 100%;
-        height: 45vw;
+        height: 46vw;
         position: absolute;
-        top: -3%; left: 0;
+        top: -4%; left: 0;
+        /* display: none; */
     }
     #footer .footer_gr{
         margin-top: 10%;
